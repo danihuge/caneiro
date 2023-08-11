@@ -1,0 +1,63 @@
+* { margin: 0; padding: 0; }
+html { background: #f1f5fa url(../img/nubes.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+body { margin: 0; padding: 0; font-size: 62.5%; font-family: Verdana, Helvetica, Arial, sans-serif; }	
+:focus { outline: 0; }
+a { color: #3e749a; }
+a:hover { color: #831d30; } 
+#contenido { background: url(../img/marco.png) 30px 0 no-repeat; width: 925px; margin: 4% auto auto auto; }
+#foto { background: transparent url(../img/vilarrube.png) 38px 29px no-repeat; width: 925px; height: 506px; }
+#cab_int { background: transparent url(../img/sup_f.png) 30px 0px no-repeat; width: 925px; height: 40px; }
+#int { background: transparent url(../img/int_f.png) 30px 29px repeat-y; width: 925px; height: auto; }
+#pie_int { background: transparent url(../img/inf_f.png) 30px 0px no-repeat; width: 925px; height: 20px; }
+h1 { padding: 0; margin: -20px auto 20px auto; width: 366px; height: 135px; background: url(../img/casa_caneiro.png); float: left;}
+h1 a { display: block; height: 100%; width: 100%; border: none; }
+h2#tit_1 { background: transparent url(../img/tit_productos.gif) 0 0 no-repeat; width: 261px; height: 34px; }
+h2#tit_2 { background: transparent url(../img/tit_localizacion.gif) 0 0 no-repeat; width: 261px; height: 34px; }
+h2#tit_3 { background: transparent url(../img/tit_historia.gif) 0 0 no-repeat; width: 261px; height: 34px; }
+h2#tit_4 { background: transparent url(../img/vimeo.png) 0 0 no-repeat; width: 261px; }
+h2 { margin: 0 0 10px 0; }
+#textos { padding: 0; margin: 0 0 0 10px; width: 600px; float: left; color: #333; }
+.mancha { background: transparent url(../img/mancha.jpg) no-repeat 461px 350px; }
+
+h1#tit_int { padding: 0; margin: 0 0 10px 3px; width: 250px; height: 92px; background: url(../img/casa_caneiro_peq.png); float: none; }
+strong#C { padding: 0; margin: 0 5px 0 0; width: 37px; height: 40px; background: url(../img/C.gif) no-repeat; float: left; }
+#logo_concello a, h1 a, #ico_avanzarh1#tit_int { display: block; height: 100%; width: 100%; border: none; }
+#menu { margin: 80px 0 0 0; height: 339px; width: 274px; float: right; }
+#menu_int { margin: 80px 0 0 0; height: 99px; width: 274px; float: right; }
+#menu ul, #menu_int  ul, #textos ul { margin: 0; padding: 0; list-style: none; }
+#menu ul li { padding: 0; margin: 0 0 15px 0; width: 274px; height: 113px; }
+#menu_int  ul li { padding: 0; margin: 0 0 5px 0; width: 274px; height: 33px; }
+#menu ul li a { display: block; background: url(../img/apartadosbn.png); width: 274px; height: 113px; }
+#menu_int  ul li a { display: block; background: url(../img/apartadosbn.png); width: 274px; height: 33px; }
+#menu ul li a#op1, #menu_int ul li a#op1{ background-position: -274px 0; }
+#menu ul li a#op1:hover, #menu ul li a#op1_on, #menu_int ul li a#op1:hover, #menu_int ul li a#op1_on{ background-position: 0 0; }
+#menu ul li a#op2, #menu_int ul li a#op2{ background-position: -274px -113px; }
+#menu ul li a#op2:hover, #menu ul li a#op2_on, #menu_int ul li a#op2:hover, #menu_int ul li a#op2_on { background-position: 0 -113px; }
+#menu ul li a#op3, #menu_int ul li a#op3{ background-position: -274px -226px; }
+#menu ul li a#op3:hover, #menu ul li a#op3_on, #menu_int ul li a#op3:hover, #menu_int ul li a#op3_on{ background-position: 0 -226px; }
+#menu ul li a#op4, #menu_int ul li a#op4{ background-position: -274px -339px; }
+#menu ul li a#op4:hover, #menu ul li a#op4_on, #menu_int ul li a#op4:hover, #menu_int ul li a#op4_on{ background-position: 0 -339px; }
+
+ul.lista li { background: url(../img/p.gif) no-repeat 0 10px; padding: 5px 0 0 15px; }
+.textos_marco { border: 1px solid #831d30; padding: 10px; background-color: #f4f8fa; }
+
+#facebook {float: right; margin: 170px 0 0 0; }
+#facebook a { display: block; background: url(../img/facebook.png); width: 116px; height: 30px; }
+#facebook a:hover { display: block; background: url(../img/facebook.png) 0 -30px; width: 116px; height: 30px; }
+h1 span, #menu ul li a span, #menu_int ul li a span, #facebook span, h2 span, #C span { display: block; text-indent:-9999px; overflow:hidden; margin: 0; background-image: none; height: 0; }
+#dir_por { font: 0.7em; color: #000; margin: 20px 0 20px 30px;}
+#dir { font: 0.7em; color: #000; margin: 0 0 20px 30px;}
+.margen { padding: 0 0 0 50px; font-size: 1.2em; }
+ul#galeria { list-style: none; }
+ul#galeria li { display: inline; float: left; margin: 0 10px 20px 0; }
+ul#galeria li a { color: #ccc; }
+ul#galeria li a:hover { color: #831d30; } 
+ul#galeria img.his { width: 120px; height: 84px; padding: 2px; border: 1px solid; }
+ul#galeria img.pro { width: 84px; height: 84px; padding: 2px; border: 1px solid; }
+.col { display: inline; float: left; width: 230px; }
+.izq { margin: 0 20px 0 0; width: 300px; text-algin: center; }
+#contenido:after, .clear, ul#galeria:after { content: ""; display: block; clear: both; height: 0; visibility: hidden; }
+#contenido, .clear, ul#galeria { min-height: 0; height: 1%; }
+
+
+
